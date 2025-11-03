@@ -10,10 +10,4 @@ public class TourStarter : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(nextscene);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

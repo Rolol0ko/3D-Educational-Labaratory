@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4811584335302605838}
   - component: {fileID: 1625682190150276821}
   - component: {fileID: 5102635092101995660}
-  - component: {fileID: 8628833390731788604}
   m_Layer: 0
   m_Name: ArrowHotspot
   m_TagString: Untagged
@@ -128,19 +127,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArrowHotspot
   onClicked:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &8628833390731788604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8810745033891823086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f29b98969404ecb45ad8eb0b1ee2b84e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrowHotspot
-  onClicked:
-    m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 5caf1934caf5cb340a4e89aec3de57bc, type: 3}
+        m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: EntranceHallway
+          m_BoolArgument: 0
+        m_CallState: 2

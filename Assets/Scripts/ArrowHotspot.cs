@@ -23,7 +23,12 @@ public class ArrowHotspot : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
+<<<<<<< HEAD
                     onClicked.Invoke(); 
+=======
+                    onClicked.Invoke(); // your teammate can hook into this
+                    Debug.Log("Button Clicked");
+>>>>>>> 508901cd792f952c607e47da4a3066dd4a5dc386
                 }
             }
         }

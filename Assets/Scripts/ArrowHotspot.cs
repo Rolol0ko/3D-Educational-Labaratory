@@ -4,8 +4,10 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider))]
 public class ArrowHotspot : MonoBehaviour
 {
-    [Tooltip("Invoked when this arrow is clicked")]
-    public UnityEvent onClicked;
+    //[Tooltip("Invoked when this arrow is clicked")]
+    //public UnityEvent onClicked;
+
+    public string m_NextScene = "TargetScene";
 
     private Camera cam;
 
@@ -23,7 +25,25 @@ public class ArrowHotspot : MonoBehaviour
             {
                 if (hit.collider.gameObject == gameObject)
                 {
-                    onClicked.Invoke(); // your teammate can hook into this
+                    //onClicked.Invoke(); // your teammate can hook into this
+                    /*
+                    GameObject user = GameObject.Find("User");
+                    if (user != null)
+                    {
+                        SceneController sc = user.GetComponentInChildren<SceneController>();
+                        if (sc != null)
+                        {
+                            sc.ChangeScene("TargetScene");
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError("SceneController not found!");
+                    }
+                    */
+
+                    SceneController.Instance.ChangeScene(m_NextScene);
+
                     Debug.Log("Button Clicked");
                 }
             }

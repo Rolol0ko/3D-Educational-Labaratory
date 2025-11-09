@@ -17,6 +17,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab Navigation/sideroom/Sideroom.unity
     guid: cc487860b21c10440b6e0c9626dfb95a
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/backlab left/BackLeft.unity
+    guid: f4b3b2af25f7f48458425d4251e5b784
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/backlab middle/BackMiddle.unity
+    guid: 7c9591aae422c144b8fe792ec8f80b14
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/backlab right/BackRight.unity
+    guid: 00eebfb59926a1b4cbdfd61159d00611
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/frontlab close/FrontClose.unity
+    guid: 0d37ad0bce1c3a443866539d81ccfd03
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/frontlab far/FrontFar.unity
+    guid: 0ace6cdbfde56004580eeff99ad0736b
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/frontlab main/FrontMain.unity
+    guid: 6322f43e0072fff479e86c8c8bcfdc25
+  - enabled: 1
+    path: Assets/Scenes/Lab Navigation/staircase/Staircase.unity
+    guid: a57e85634d8686b47b7ebb5ce1b4afd6
+  - enabled: 1
+    path: Assets/Scenes/Specific Labs/Absorption Lab/absorptionLab.unity
+    guid: d290094062c3d9d469f14d271e4003ae
+  - enabled: 1
+    path: Assets/Scenes/Specific Labs/Distillation Lab/distillationLab.unity
+    guid: cf846049bc5805a45b94ac9333ba951c
+  - enabled: 1
+    path: Assets/Scenes/Specific Labs/Reactions Lab/reactionLab.unity
+    guid: d2b15d178d595be4da9149c18dde97c3
+  - enabled: 1
+    path: Assets/Scenes/Specific Labs/Refrigeration Lab/refrigerationLab.unity
+    guid: d9bdf0835904ba6429ff71098891e2e7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

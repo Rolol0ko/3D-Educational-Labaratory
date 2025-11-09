@@ -1,18 +1,17 @@
 using UnityEngine;
-using System.Collections.Generic;
-using System.Collections;
 
-public class DontDestroyMe : MonoBehaviour
+public class UserSingleton : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
+    private static UserSingleton instance;
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject); // Destroy duplicate
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject); // Persist across scenes
     }
 }

@@ -42,7 +42,7 @@ public class ArrowHotspot : MonoBehaviour
                     }
                     */
 
-                    SceneController.Instance.ChangeScene(m_NextScene);
+                    SceneController.Instance.FadeAndSwitchScene(m_NextScene);
 
                     Debug.Log("Button Clicked");
                 }

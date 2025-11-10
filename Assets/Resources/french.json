@@ -1,0 +1,10 @@
+{
+  "MainMenuTitle": "Génie chimique de l'Université d'Ottawa",
+  "PlayButton": "Commencer",
+  "OptionsButton": "Options",
+  "QuitButton": "Quitter",
+  "BackButton": "Retournez",
+
+  "DistillationLab": "C'est ici que le contenu écrit du laboratoire de distillation ira",
+  "Filtration": "C'est là que le contenu écrit du laboratoire de filtration ira"
+}

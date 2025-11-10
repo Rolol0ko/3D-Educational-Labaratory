@@ -1,0 +1,10 @@
+{
+  "MainMenuTitle": "Welcome to uOttawa's Chemical Eng Lab",
+  "PlayButton": "Begin",
+  "OptionsButton": "Options",
+  "QuitButton": "Quit",
+  "BackButton": "Back",
+
+  "DistillationLab": "This is where text content for the distillation lab will go",
+  "FiltrationLab": "This is where text content for the filtration lab will go"
+}

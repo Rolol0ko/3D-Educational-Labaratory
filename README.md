@@ -1,6 +1,6 @@
 # 3D-Educational-Labaratory
 
-A Unity project featuring a persistent JSON‑driven localization system, menus and UIs, a fade transition between scenes, a scavenger‑hunt checklist that updates on scene visits, and an Info Panel that displays localized context text.
+A Unity project featuring a persistent JSON‑driven localization system, menus and UIs, a fade transition between scenes, a progress bar that updates on scene visits, and an Info Panel that displays localized context text.
 
 ## Features
 
@@ -50,4 +50,4 @@ A Unity project featuring a persistent JSON‑driven localization system, menus 
 
 ## License
 
-- Add your preferred license (e.g., MIT) in a LICENSE file and reference it here to clarify project usage and contributions.
+- CC BY

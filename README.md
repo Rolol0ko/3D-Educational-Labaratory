@@ -50,4 +50,4 @@ A Unity project featuring a persistent JSON‑driven localization system, menus 
 
 ## License
 
-- CC BY
+- MIT

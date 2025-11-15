@@ -11,6 +11,8 @@ public class SceneController : MonoBehaviour
 
     public GameObject inGameUI;
 
+    [SerializeField] private CameraRotation look;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -67,15 +69,13 @@ public class SceneController : MonoBehaviour
     {
         if (scene.name == "Main Menu")
         {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
             inGameUI.SetActive(false);
+            look.SetMovementActive(false);
         }
         else
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
             inGameUI.SetActive(true);
+            look.SetMovementActive(true);
         }
     }
 

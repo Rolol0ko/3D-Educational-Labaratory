@@ -4,12 +4,9 @@ A Unity project featuring a persistent JSON‑driven localization system, menus 
 
 ## Features
 
-- Persistent User singleton with DontDestroyOnLoad to keep state, camera, and managers across scene changes.
-- Child Main Camera accessed via the singleton, with a CameraRotation component that can be enabled/disabled to pause look.
 - Scene navigation with fade and cursor state management that unlocks in menus and locks during gameplay.
 - JSON‑based localization loaded via Resources, feeding TextMesh Pro UI via string keys instead of hardcoded text.
-- Info Panel UI prefab that shows scene‑specific text, unlocks the cursor, and temporarily disables look controls.
-- Scavenger‑hunt checklist that marks tasks complete when scenes load, with the display capped to three visible tasks at a time.
+//- Scavenger‑hunt checklist that marks tasks complete when scenes load, with the display capped to three visible tasks at a time.
 
 ## Project Structure
 

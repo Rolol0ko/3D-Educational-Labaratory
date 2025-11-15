@@ -15,6 +15,9 @@ public class LocalizationData
     public string DistillationLab;
     public string FiltrationLab;
     public string BackButton;
+    public string CloseButton;
+    public string EmergencyShower;
+    public string EmergencyShowerTitle;
 }
 
 public class LangSystem : MonoBehaviour

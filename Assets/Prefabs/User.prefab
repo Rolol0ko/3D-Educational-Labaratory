@@ -807,6 +807,7 @@ MonoBehaviour:
   fadeImage: {fileID: 6838462010412166907}
   fadeDuration: 0.3
   inGameUI: {fileID: 833172723775748685}
+  look: {fileID: 7456644699265884227}
 --- !u!1 &5496650441097957479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a64ae98090ed28240b6ee666417c1362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DontDestroyMe
+  cameraRotation: {fileID: 7456644699265884227}
 --- !u!1 &8172168075821621230
 GameObject:
   m_ObjectHideFlags: 0

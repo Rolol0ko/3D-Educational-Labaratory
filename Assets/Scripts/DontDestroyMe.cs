@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class UserSingleton : MonoBehaviour
 {
-    private static UserSingleton instance;
+    public static UserSingleton instance { get; private set; }
+
+    [SerializeField] public CameraRotation cameraRotation;
 
     void Awake()
     {
@@ -13,5 +15,8 @@ public class UserSingleton : MonoBehaviour
         }
         instance = this;
         DontDestroyOnLoad(gameObject); // Persist across scenes
+
+        if (cameraRotation == null) cameraRotation = GetComponentInChildren<CameraRotation>(true);
     }
+    public CameraRotation Look => cameraRotation;
 }

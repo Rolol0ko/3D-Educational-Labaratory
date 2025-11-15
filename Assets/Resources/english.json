@@ -4,6 +4,10 @@
   "OptionsButton": "Options",
   "QuitButton": "Quit",
   "BackButton": "Back",
+  "CloseButton": "Close",
+
+  "EmergencyShowerTitle": "Emergency Shower",
+  "EmergencyShower": "Emergency Shower discription",
 
   "DistillationLab": "This is where text content for the distillation lab will go",
   "FiltrationLab": "This is where text content for the filtration lab will go"

@@ -4,6 +4,10 @@
   "OptionsButton": "Options",
   "QuitButton": "Quitter",
   "BackButton": "Retournez",
+  "CloseButton": "Fermez",
+
+  "EmergencyShowerTitle": "Douche d’Urgence",
+  "EmergencyShower": "Douche d’urgence contenu",
 
   "DistillationLab": "C'est ici que le contenu écrit du laboratoire de distillation ira",
   "Filtration": "C'est là que le contenu écrit du laboratoire de filtration ira"

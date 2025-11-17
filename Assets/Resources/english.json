@@ -10,5 +10,20 @@
   "EmergencyShower": "Emergency Shower discription",
 
   "DistillationLab": "This is where text content for the distillation lab will go",
-  "FiltrationLab": "This is where text content for the filtration lab will go"
+  "FiltrationLab": "This is where text content for the filtration lab will go",
+
+  "Checklist.MainMenu": "Open the Main Menu",
+  "Checklist.Entrance": "Enter the Lab",
+  "Checklist.EntranceHallway": "Walk the Entrance Hallway",
+  "Checklist.Sideroom": "Check the Side Room",
+  "Checklist.BackLeft": "Explore Back Lab — Left",
+  "Checklist.BackMiddle": "Explore Back Lab — Middle",
+  "Checklist.BackRight": "Explore Back Lab — Right",
+  "Checklist.FrontFar": "Explore Front Lab — Far",
+  "Checklist.FrontClose": "Explore Front Lab — Close",
+  "Checklist.FrontMain": "Explore Front Lab — Main",
+  "Checklist.Staircase": "Go to the Staircase",
+  "Checklist.distillationLab": "Visit the Distillation Lab",
+  "Checklist.reactionLab": "Visit the Reactions Lab",
+  "Checklist.refrigerationLab": "Visit the Refrigeration Lab"
 }

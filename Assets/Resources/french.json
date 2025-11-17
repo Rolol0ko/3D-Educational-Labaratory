@@ -10,5 +10,21 @@
   "EmergencyShower": "Douche d’urgence contenu",
 
   "DistillationLab": "C'est ici que le contenu écrit du laboratoire de distillation ira",
-  "Filtration": "C'est là que le contenu écrit du laboratoire de filtration ira"
+  "FiltrationLab": "C'est là que le contenu écrit du laboratoire de filtration ira",
+
+  "Checklist.MainMenu": "Ouvrir le menu principal",
+  "Checklist.Entrance": "Entrer dans le laboratoire",
+  "Checklist.EntranceHallway": "Parcourir le couloir d’entrée",
+  "Checklist.Sideroom": "Vérifier la salle annexe",
+  "Checklist.BackLeft": "Explorer le laboratoire arrière — côté gauche",
+  "Checklist.BackMiddle": "Explorer le laboratoire arrière — partie centrale",
+  "Checklist.BackRight": "Explorer le laboratoire arrière — côté droit",
+  "Checklist.FrontFar": "Explorer le laboratoire avant — zone éloignée",
+  "Checklist.FrontClose": "Explorer le laboratoire avant — zone proche",
+  "Checklist.FrontMain": "Explorer le laboratoire avant — zone principale",
+  "Checklist.Staircase": "Aller à l’escalier",
+  "Checklist.distillationLab": "Visiter le laboratoire de distillation",
+  "Checklist.reactionLab": "Visiter le laboratoire de réactions",
+  "Checklist.refrigerationLab": "Visiter le laboratoire de réfrigération"
+
 }

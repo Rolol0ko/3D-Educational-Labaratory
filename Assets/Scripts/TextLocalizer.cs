@@ -1,37 +1,15 @@
-using UnityEngine;
-using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class TextLocalizer : MonoBehaviour
 {
-    public string textKey; // assign in Inspector
-    private TextMeshProUGUI uiText;
+    [SerializeField] private string key;
+    [SerializeField] private TextMeshProUGUI label;
 
-    private static List<TextLocalizer> allLocalizers = new List<TextLocalizer>();
-
-    void Awake()
+    void OnEnable() { Refresh(); }
+    public void Refresh()
     {
-        uiText = GetComponent<TextMeshProUGUI>();
-        allLocalizers.Add(this);
-    }
-    void Start()
-    {
-        UpdateText();
-    }
-    void OnDestroy()
-    {
-        allLocalizers.Remove(this);
-    }
-
-    public void UpdateText()
-    {
-        if (uiText != null && LangSystem.Instance != null)
-            uiText.text = LangSystem.Instance.GetText(textKey);
-    }
-
-    // Allows LocalizationManager to notify all active localizers
-    public static void NotifyAll()
-    {
-        foreach (var loc in allLocalizers) loc.UpdateText();
+        if (LangSystem.Instance == null || label == null) return;
+        label.text = LangSystem.Instance.GetText(key);
     }
 }

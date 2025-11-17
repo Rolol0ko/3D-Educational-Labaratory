@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b98969404ecb45ad8eb0b1ee2b84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowHotspot
-  m_NextScene: Enterance
+  m_NextScene: BackMiddle

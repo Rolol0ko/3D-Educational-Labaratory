@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Specific Labs/Refrigeration Lab/refrigerationLab.unity
     guid: d9bdf0835904ba6429ff71098891e2e7
+  - enabled: 1
+    path: Assets/Scenes/Specific Labs/Absorption Lab/AbsorbtionLab.unity
+    guid: 0db98dced9ba1ed4f8aa029e846b9f85
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

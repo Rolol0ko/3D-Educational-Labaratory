@@ -442,18 +442,18 @@ RectTransform:
   m_GameObject: {fileID: 2397510269388563344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5461257720304062678}
   - {fileID: 8572531611338225035}
   - {fileID: 2071330211340438000}
   m_Father: {fileID: 7556526185838357636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.28011703}
-  m_AnchorMax: {x: 0.09200001, y: 0.8012538}
-  m_AnchoredPosition: {x: 0, y: -69}
-  m_SizeDelta: {x: 0, y: -162}
+  m_AnchorMin: {x: 0, y: 0.22866832}
+  m_AnchorMax: {x: 0.18556252, y: 0.79200006}
+  m_AnchoredPosition: {x: -31, y: -21}
+  m_SizeDelta: {x: -182, y: -201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6204987695123197726
 CanvasRenderer:
@@ -506,12 +506,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
   m_Padding:
-    m_Left: 8
-    m_Right: 8
-    m_Top: 8
-    m_Bottom: 8
+    m_Left: 4
+    m_Right: 4
+    m_Top: 4
+    m_Bottom: 4
   m_ChildAlignment: 0
-  m_Spacing: 8
+  m_Spacing: 4
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1

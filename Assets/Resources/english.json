@@ -1,6 +1,6 @@
 {
   "entries": [
-{ "key": "MainMenuTitle", "value": "Welcome to uOttawa's Chemical Eng Lab" },
+{ "key": "MainMenuTitle", "value": "Welcome to uOttawa's Chemical Engineering Laboratory" },
 { "key": "PlayButton", "value": "Begin" },
 { "key": "OptionsButton", "value": "Options" },
 { "key": "QuitButton", "value": "Quit" },
@@ -23,7 +23,7 @@
 { "key": "Checklist.refrigerationLab", "value": "Visit the Refrigeration Lab" },
 
 { "key": "Info.EmergencyShowerTitle", "value": "Emergency Shower" },
-{ "key": "Info.EmergencyShower", "value": "Emergency Shower description" },
+{ "key": "Info.EmergencyShower.body", "value": "Emergency Shower description" },
 { "key": "Info.Entrance.Title", "value": "Lab Entrance" },
 { "key": "Info.Entrance.Body", "value": "Welcome to the Chemical Engineering Laboratory—begin your tour here." },
 { "key": "Info.EntranceHallway.Title", "value": "Entrance Hallway" },
@@ -52,5 +52,8 @@
 { "key": "Info.refrigerationLab.Body", "value": "Explore heat exchangers and refrigeration cycle components." },
 
 { "key": "DistillationLab", "value": "This is where text content for the distillation lab will go" },
-{ "key": "FiltrationLab", "value": "This is where text content for the filtration lab will go" }]
+{ "key": "FiltrationLab", "value": "This is where text content for the filtration lab will go" },
+
+{ "key": "LabData.Title", "value": "Lab Data"},
+{ "key": "LabData.Body", "value": "This is where the data from the lab is collected and displayed for students."}]
 }

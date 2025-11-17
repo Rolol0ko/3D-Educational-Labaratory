@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b98969404ecb45ad8eb0b1ee2b84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowHotspot
-  m_NextScene: AbsorptionLab
+  m_NextScene: AbsorbtionLab
 --- !u!1001 &2216713451702852507
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -39,9 +39,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Lab Navigation/staircase/Staircase.unity
     guid: a57e85634d8686b47b7ebb5ce1b4afd6
   - enabled: 1
-    path: Assets/Scenes/Specific Labs/Absorption Lab/absorptionLab.unity
-    guid: d290094062c3d9d469f14d271e4003ae
-  - enabled: 1
     path: Assets/Scenes/Specific Labs/Distillation Lab/distillationLab.unity
     guid: cf846049bc5805a45b94ac9333ba951c
   - enabled: 1

@@ -1016,7 +1016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  textKey: QuitButton
+  key: 
+  label: {fileID: 0}
 --- !u!1 &1016594486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,7 +1424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  textKey: PlayButton
+  key: 
+  label: {fileID: 0}
 --- !u!1 &1349389332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  textKey: OptionsButton
+  key: 
+  label: {fileID: 0}
 --- !u!1 &1420305513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,12 +1728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  textKey: MainMenuTitle
---- !u!1 &1457280282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5152438300178803641, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-  m_PrefabInstance: {fileID: 3876992345067523666}
-  m_PrefabAsset: {fileID: 0}
+  key: MainMenuTitle
+  label: {fileID: 1420305515}
 --- !u!1 &1775527359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5496650441097957479, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
@@ -1897,11 +1896,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817812819}
   m_CullTransparentMesh: 1
---- !u!1 &1837779588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6434582900418197410, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-  m_PrefabInstance: {fileID: 3876992345067523666}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1876198437
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,33 +2165,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013931848}
   m_CullTransparentMesh: 1
---- !u!1 &2054135352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2397510269388563344, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-  m_PrefabInstance: {fileID: 3876992345067523666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2054135354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2054135352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b98a698c75e64534b8a10a260e0e78b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChecklistUI
-  rows:
-  - root: {fileID: 0}
-    label: {fileID: 0}
-    checkmark: {fileID: 0}
-  - root: {fileID: 1457280282}
-    label: {fileID: 0}
-    checkmark: {fileID: 0}
-  - root: {fileID: 1837779588}
-    label: {fileID: 0}
-    checkmark: {fileID: 0}
 --- !u!1 &2072155171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  textKey: BackButton
+  key: 
+  label: {fileID: 0}
 --- !u!1001 &3876992345067523666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2571,9 +2539,6 @@ PrefabInstance:
     - {fileID: 3833279411577245779, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2397510269388563344, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2054135354}
     - targetCorrespondingSourceObject: {fileID: 5496650441097957479, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1775527361}

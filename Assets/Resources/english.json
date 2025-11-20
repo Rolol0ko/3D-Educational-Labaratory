@@ -7,6 +7,13 @@
 { "key": "BackButton", "value": "Back" },
 { "key": "CloseButton", "value": "Close" },
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+  "EmergencyShowerTitle": "Emergency Shower",
+  "EmergencyShower": "Emergency Shower discription",
+=======
+>>>>>>> Samantha
 { "key": "Checklist.Main Menu", "value": "Open the Main Menu" },
 { "key": "Checklist.Entrance", "value": "Enter the Lab" },
 { "key": "Checklist.EntranceHallway", "value": "Walk the Entrance Hallway" },
@@ -21,6 +28,12 @@
 { "key": "Checklist.distillationLab", "value": "Visit the Distillation Lab" },
 { "key": "Checklist.reactionLab", "value": "Visit the Reactions Lab" },
 { "key": "Checklist.refrigerationLab", "value": "Visit the Refrigeration Lab" },
+<<<<<<< HEAD
+=======
+{ "key": "Checklist.absorptionLab", "value": "Visit the Absorption Lab" },
+
+>>>>>>> Stashed changes
+>>>>>>> Samantha
 
 { "key": "Info.EmergencyShowerTitle", "value": "Emergency Shower" },
 { "key": "Info.EmergencyShower.body", "value": "Emergency Shower description" },

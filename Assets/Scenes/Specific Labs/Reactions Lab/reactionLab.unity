@@ -525,11 +525,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Samantha
 --- !u!1 &275803653655281287
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,13 +779,8 @@ Transform:
   m_GameObject: {fileID: 6421498926469969948}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0033528665, y: 0.38268292, z: -0.0021443944, w: 0.9238711}
-<<<<<<< HEAD
   m_LocalPosition: {x: 195, y: 331, z: -458}
   m_LocalScale: {x: 10, y: 10, z: 1.2349781}
-=======
-  m_LocalPosition: {x: -55.9, y: 7.8, z: -139.5}
-  m_LocalScale: {x: 2.4699562, y: 2.4699562, z: 1.2349781}
->>>>>>> Samantha
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6932957881744532396}
@@ -1078,11 +1068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: -40, y: 20}
-=======
-  m_AnchoredPosition: {x: -60, y: 25}
->>>>>>> Samantha
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5088529030936201019
@@ -1109,11 +1095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 120, y: -40}
-=======
-  m_AnchoredPosition: {x: 130, y: -40}
->>>>>>> Samantha
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5516256826490906167
@@ -1128,20 +1110,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-<<<<<<< HEAD
   m_UiScaleMode: 0
-=======
-  m_UiScaleMode: 1
->>>>>>> Samantha
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-<<<<<<< HEAD
   m_MatchWidthOrHeight: 0
-=======
-  m_MatchWidthOrHeight: 1
->>>>>>> Samantha
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1545,10 +1519,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7769359975758076664}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> Samantha
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -416,12 +416,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: -779.21094
-=======
-<<<<<<< Updated upstream
-      value: -6.960083
->>>>>>> Samantha
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -445,37 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalRotation.z
-<<<<<<< HEAD
       value: 0.007988269
-=======
-      value: 0.12138102
-=======
-      value: -851.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -75.24126
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1125.2538
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.14942668
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0019285507
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.98868865
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.012754084
->>>>>>> Samantha
       objectReference: {fileID: 0}
     - target: {fileID: 2071330211340438000, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchorMax.y
@@ -524,10 +489,6 @@ PrefabInstance:
     - target: {fileID: 5461257720304062678, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> Samantha
       objectReference: {fileID: 0}
     - target: {fileID: 6399477082851740649, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchorMax.y

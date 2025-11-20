@@ -2335,7 +2335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 247295749607405854, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: 'scavengerScenes.Array.data[0]'
-      value: absorptionLab
+      value: AbsorbtionLab
       objectReference: {fileID: 0}
     - target: {fileID: 247295749607405854, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: 'scavengerScenes.Array.data[1]'
@@ -2387,31 +2387,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.9589233
+      value: -6.9543457
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00012207031
+      value: -0.0007324219
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.868317
+      value: 26.860962
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96837634
+      value: 0.52355325
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.008715496
+      value: 0.029560208
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.24933161
+      value: 0.8501261
       objectReference: {fileID: 0}
     - target: {fileID: 2007657937007744968, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0022442434
+      value: -0.04799773
       objectReference: {fileID: 0}
     - target: {fileID: 2071330211340438000, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2443,7 +2443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5046076261756817934, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: 'sceneTasks.Array.data[0]'
-      value: absorptionLab
+      value: AbsorbtionLab
       objectReference: {fileID: 0}
     - target: {fileID: 5046076261756817934, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: 'sceneTasks.Array.data[1]'

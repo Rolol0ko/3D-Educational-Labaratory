@@ -6,7 +6,7 @@ A Unity project featuring a persistent JSON‑driven localization system, menus 
 
 - Scene navigation with fade and cursor state management that unlocks in menus and locks during gameplay.
 - JSON‑based localization loaded via Resources, feeding TextMesh Pro UI via string keys instead of hardcoded text.
-//- Scavenger‑hunt checklist that marks tasks complete when scenes load, with the display capped to three visible tasks at a time.
+- Scavenger‑hunt checklist that marks tasks complete when scenes load, with the display capped to three visible tasks at a time.
 
 ## Project Structure
 
@@ -36,13 +36,11 @@ A Unity project featuring a persistent JSON‑driven localization system, menus 
 - Data is parsed via Unity’s JSON serialization and stored in a Dictionary<string, string> for fast key lookups.
 - Each TextMesh Pro label uses a small component (e.g., TextLocalizer) to request text by key on Start and when language changes.
 
-/*
 ## Scavenger‑Hunt Checklist
 
 - A persistent progress manager listens to SceneManager.sceneLoaded and marks the corresponding scene task complete upon load.
 - The checklist UI shows at most three active tasks by filling three slots from the ordered list and skips completed items.
 - Optionally use a ScrollView if you want to browse the full task list while maintaining a capped “featured” section of three items.
-*/
 
 ## Multi‑Scene Workflow
 

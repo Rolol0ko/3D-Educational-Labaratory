@@ -97,3 +97,21 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+WEBBUILD/Build/WEBBUILD.data
+WEBBUILD/Build/WEBBUILD.framework.js
+WEBBUILD/Build/WEBBUILD.loader.js
+WEBBUILD/Build/WEBBUILD.wasm
+WEBBUILD/index.html
+WEBBUILD/manifest.webmanifest
+WEBBUILD/ServiceWorker.js
+WEBBUILD/TemplateData/favicon.ico
+WEBBUILD/TemplateData/icons/unity-logo-dark.png
+WEBBUILD/TemplateData/icons/unity-logo-light.png
+WEBBUILD/TemplateData/progress-bar-empty-dark.png
+WEBBUILD/TemplateData/progress-bar-empty-light.png
+WEBBUILD/TemplateData/progress-bar-full-dark.png
+WEBBUILD/TemplateData/progress-bar-full-light.png
+WEBBUILD/TemplateData/style.css
+WEBBUILD/TemplateData/unity-logo-dark.png
+WEBBUILD/TemplateData/unity-logo-light.png
+WEBBUILD/TemplateData/webmemd-icon.png

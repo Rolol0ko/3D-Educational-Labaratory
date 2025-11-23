@@ -20,7 +20,6 @@ public class ChecklistManager : MonoBehaviour
             return;
         }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
         Debug.Log($"{TAG} Awake on {name}. Tasks={sceneTasks.Count}, Persisting across scenes", this);
     }
 

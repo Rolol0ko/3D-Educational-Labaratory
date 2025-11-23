@@ -31,7 +31,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9199746441210805654}
   - {fileID: 1974910992793385348}
   - {fileID: 2663158577929269375}
   m_Father: {fileID: 6653553108073641098}
@@ -132,8 +131,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376785550014987620}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12842028, y: 0.05827842, z: -0.0075597237, w: 0.9899772}
-  m_LocalPosition: {x: -6.958893, y: -0.00015258789, z: 26.86865}
+  m_LocalRotation: {x: 0.029560208, y: 0.8501261, z: -0.04799773, w: 0.52355325}
+  m_LocalPosition: {x: -6.9543457, y: -0.0007324219, z: 26.860962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -157,7 +156,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 15.638705
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -172,7 +171,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 91
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -254,10 +253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3354cf352af78d841ae6cf31a387db19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraRotation
-  turn: {x: 0, y: 0}
-  sensitivity: 0.5
-  deltaMove: {x: 0, y: 0, z: 0}
-  speed: 1
 --- !u!1 &1384142493756508805
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.38823533, g: 0.427451, b: 0.4666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -452,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.22866832}
   m_AnchorMax: {x: 0.18556252, y: 0.79200006}
-  m_AnchoredPosition: {x: -31, y: -21}
+  m_AnchoredPosition: {x: -31.000244, y: -20.99997}
   m_SizeDelta: {x: -182, y: -201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6204987695123197726
@@ -476,7 +471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9490197, g: 0.9490197, b: 0.9490197, a: 0.49803922}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -541,81 +536,6 @@ MonoBehaviour:
   - root: {fileID: 6434582900418197410}
     label: {fileID: 80981222618811691}
     checkmark: {fileID: 0}
---- !u!1 &2649112792761727478
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9199746441210805654}
-  - component: {fileID: 7251868462367130714}
-  - component: {fileID: 6266280522239684522}
-  m_Layer: 0
-  m_Name: Crosshair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &9199746441210805654
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2649112792761727478}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 7556526185838357636}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7251868462367130714
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2649112792761727478}
-  m_CullTransparentMesh: 1
---- !u!114 &6266280522239684522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2649112792761727478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.14653791, b: 0.14653791, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86955918cc4bb23428a59c8750083f49, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3235995656262139755
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,7 +840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.4039216, g: 0.47450984, b: 0.42352945, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1031,17 +951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HuntProgress
   scavengerScenes:
-  - Entrance
-  - EntranceHallway
-  - Sideroom
-  - BackLeft
-  - BackMiddle
-  - BackRight
-  - FrontClose
-  - FrontFar
-  - FrontMain
-  - Staircase
-  - absorptionLab
+  - AbsorbtionLab
   - distillationLab
   - reactionLab
   - refrigerationLab
@@ -1060,17 +970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChecklistManager
   sceneTasks:
-  - Entrance
-  - EntranceHallway
-  - Sideroom
-  - BackLeft
-  - BackMiddle
-  - BackRight
-  - FrontClose
-  - FrontFar
-  - FrontMain
-  - Staircase
-  - absorptionLab
+  - AbsorbtionLab
   - distillationLab
   - reactionLab
   - refrigerationLab
@@ -1134,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.5019608, g: 0.454902, b: 0.42352945, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1225,7 +1125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1467,6 +1367,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChecklistItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
+      objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1551,6 +1463,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Task 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1583,6 +1511,18 @@ PrefabInstance:
     - target: {fileID: 2311456768643271029, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Name
       value: ChecklistItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
       objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
@@ -1668,6 +1608,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Task 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1700,6 +1656,18 @@ PrefabInstance:
     - target: {fileID: 2311456768643271029, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Name
       value: ChecklistItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
       objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
@@ -1784,6 +1752,22 @@ PrefabInstance:
     - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_text
       value: Task 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

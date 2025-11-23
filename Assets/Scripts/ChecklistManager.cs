@@ -15,7 +15,6 @@ public class ChecklistManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Debug.LogWarning($"{TAG} Duplicate destroyed on {name}", this);
             Destroy(gameObject);
             return;
         }

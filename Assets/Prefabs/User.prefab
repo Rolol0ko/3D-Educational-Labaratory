@@ -156,7 +156,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 15.638705
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -171,7 +171,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 91
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.38823533, g: 0.427451, b: 0.4666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -447,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.22866832}
   m_AnchorMax: {x: 0.18556252, y: 0.79200006}
-  m_AnchoredPosition: {x: -31, y: -21}
+  m_AnchoredPosition: {x: -31.000244, y: -20.99997}
   m_SizeDelta: {x: -182, y: -201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6204987695123197726
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9490197, g: 0.9490197, b: 0.9490197, a: 0.49803922}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.4039216, g: 0.47450984, b: 0.42352945, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.5019608, g: 0.454902, b: 0.42352945, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1367,6 +1367,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChecklistItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
+      objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1451,6 +1463,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Task 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1483,6 +1511,18 @@ PrefabInstance:
     - target: {fileID: 2311456768643271029, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Name
       value: ChecklistItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
       objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
@@ -1568,6 +1608,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Task 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1600,6 +1656,18 @@ PrefabInstance:
     - target: {fileID: 2311456768643271029, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Name
       value: ChecklistItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121463405910819298, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.56078434
       objectReference: {fileID: 0}
     - target: {fileID: 3652543522154394236, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_Pivot.x
@@ -1684,6 +1752,22 @@ PrefabInstance:
     - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
       propertyPath: m_text
       value: Task 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959012509673017125, guid: f83f97f83c4dc0e45b1496d34f2f40b6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

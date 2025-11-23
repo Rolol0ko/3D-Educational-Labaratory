@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3354cf352af78d841ae6cf31a387db19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraRotation
+  mouseMovementActive: 0
 --- !u!1 &1384142493756508805
 GameObject:
   m_ObjectHideFlags: 0

@@ -70,10 +70,12 @@ public class SceneController : MonoBehaviour
         if (scene.name == "Main Menu")
         {
             inGameUI.SetActive(false);
+            look.mouseMovementActive = false;
         }
         else
         {
             inGameUI.SetActive(true);
+            look.mouseMovementActive = true;
         }
     }
 

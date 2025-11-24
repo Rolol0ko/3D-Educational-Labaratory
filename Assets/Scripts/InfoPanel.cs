@@ -11,6 +11,7 @@ public class InfoPanel : MonoBehaviour
 
     void Start()
     {
+        UI = GameObject.Find("UI");
         cam = Camera.main;
         HideInfoPanel();
     }
@@ -25,7 +26,6 @@ public class InfoPanel : MonoBehaviour
     // Hide info panel
     public void HideInfoPanel()
     {
-        UI = GameObject.Find("UI");
         panelRoot.SetActive(false);
         UI.SetActive(true);
     }

@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682a61a39b6052b4f8cd480e4fa8c532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
-  key: LabData.Body
+  key: SampleText
   label: {fileID: 2103037328}
 --- !u!114 &2103037328
 MonoBehaviour:

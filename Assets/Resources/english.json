@@ -7,6 +7,8 @@
 { "key": "BackButton", "value": "Back" },
 { "key": "CloseButton", "value": "Close" },
 
+{ "key": "SampleText", "value": "Sample Text" },
+
 { "key": "Checklist.distillationLab", "value": "Visit the Distillation Lab" },
 { "key": "Checklist.reactionLab", "value": "Visit the Reactions Lab" },
 { "key": "Checklist.refrigerationLab", "value": "Visit the Refrigeration Lab" },

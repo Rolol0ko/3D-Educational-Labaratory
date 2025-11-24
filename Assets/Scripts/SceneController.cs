@@ -7,7 +7,7 @@ public class SceneController : MonoBehaviour
 {   public static SceneController Instance { get; private set; }
 
     public Image fadeImage;
-    public float fadeDuration = 1f;
+    public float fadeDuration = 1.5f;
 
     public GameObject inGameUI;
 

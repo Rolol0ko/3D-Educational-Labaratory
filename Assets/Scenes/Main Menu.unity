@@ -202,9 +202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 141101211}
+      - m_Target: {fileID: 1370505315}
         m_TargetAssemblyTypeName: LangSystem, Assembly-CSharp
-        m_MethodName: SwitchFile
+        m_MethodName: LoadJsonFile
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -732,17 +732,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133962781}
   m_CullTransparentMesh: 1
---- !u!114 &141101211 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 924431742320553174, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
-  m_PrefabInstance: {fileID: 3876992345067523666}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1987635038298d14997a60f61c054e6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LangSystem
 --- !u!1 &310422319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,6 +2086,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextLocalizer
   key: OptionsButton
   label: {fileID: 1349389334}
+--- !u!114 &1370505315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7908958797796362579, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
+  m_PrefabInstance: {fileID: 3876992345067523666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1987635038298d14997a60f61c054e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LangSystem
 --- !u!1 &1420305513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,9 +2524,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 141101211}
+      - m_Target: {fileID: 1370505315}
         m_TargetAssemblyTypeName: LangSystem, Assembly-CSharp
-        m_MethodName: SwitchFile
+        m_MethodName: LoadJsonFile
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2929,6 +2929,10 @@ PrefabInstance:
     - target: {fileID: 2071330211340438000, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663158577929269375, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31.000488
       objectReference: {fileID: 0}
     - target: {fileID: 5461257720304062678, guid: a127a3f18597dca489ed3c2593410deb, type: 3}
       propertyPath: m_AnchorMax.y

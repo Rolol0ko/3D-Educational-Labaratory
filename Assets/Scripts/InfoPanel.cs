@@ -7,6 +7,7 @@ public class InfoPanel : MonoBehaviour
 
     // Copied from arrow hotspot script
     private Camera cam;
+    private GameObject UI;
 
     void Start()
     {
@@ -17,12 +18,16 @@ public class InfoPanel : MonoBehaviour
     // Show info panel
     public void ShowInfoPanel()
     {
+        UI = GameObject.Find("UI");
         panelRoot.SetActive(true);
+        UI.SetActive(false);
     }
     // Hide info panel
     public void HideInfoPanel()
     {
+        UI = GameObject.Find("UI");
         panelRoot.SetActive(false);
+        UI.SetActive(true);
     }
 
     void Update()

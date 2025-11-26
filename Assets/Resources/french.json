@@ -7,13 +7,16 @@
 { "key": "BackButton", "value": "Retour" },
 { "key": "CloseButton", "value": "Fermer" },
 
+{ "key": "SampleText", "value": "Texte d'exemple" },
+{ "key": "Intro", "value": "Ceci est une introduction au laboratoire. Appuyez sur les flèches bleues pour vous déplacer dans le laboratoire. Appuyez sur les boutons vert et jaune pour en savoir plus sur le laboratoire et son équipement." },
+
 { "key": "Checklist.distillationLab", "value": "Visiter le laboratoire de distillation" },
 { "key": "Checklist.reactionLab", "value": "Visiter le laboratoire de réactions" },
 { "key": "Checklist.refrigerationLab", "value": "Visiter le laboratoire de réfrigération" },
 { "key": "Checklist.AbsorbtionLab", "value": "Visiter le laboratoire de absorption" },
 
 { "key": "Info.EmergencyShowerTitle", "value": "Douche d’urgence" },
-{ "key": "Info.EmergencyShower", "value": "Description de la douche d’urgence" },
+{ "key": "Info.EmergencyShower.body", "value": "Description de la douche d’urgence" },
 { "key": "Info.Entrance.Title", "value": "Entrée du laboratoire" },
 { "key": "Info.Entrance.Body", "value": "Bienvenue au laboratoire de génie chimique — commencez votre visite ici." },
 { "key": "Info.EntranceHallway.Title", "value": "Couloir d’entrée" },
@@ -42,6 +45,8 @@
 { "key": "Info.refrigerationLab.Body", "value": "Explorez les échangeurs de chaleur et les composants du cycle de réfrigération." },
 
 { "key": "DistillationLab", "value": "Contenu de texte pour le laboratoire de distillation." },
-{ "key": "FiltrationLab", "value": "Contenu de texte pour le laboratoire de filtration." }
-  ]
+{ "key": "FiltrationLab", "value": "Contenu de texte pour le laboratoire de filtration." },
+
+{ "key": "LabData.Title", "value": "Données de laboratoire"},
+{ "key": "LabData.Body", "value": "C'est là que les données du laboratoire sont collectées et affichées pour les étudiants."}]
 }

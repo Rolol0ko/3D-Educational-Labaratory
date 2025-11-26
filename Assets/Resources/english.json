@@ -8,6 +8,7 @@
 { "key": "CloseButton", "value": "Close" },
 
 { "key": "SampleText", "value": "Sample Text" },
+{ "key": "Intro", "value": "This is an intro to the lab. Press the blue arrows to move around the lab. Press the green and yellow buttons to learn more about the lab and lab equipment." },
 
 { "key": "Checklist.distillationLab", "value": "Visit the Distillation Lab" },
 { "key": "Checklist.reactionLab", "value": "Visit the Reactions Lab" },

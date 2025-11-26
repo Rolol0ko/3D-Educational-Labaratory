@@ -1346,7 +1346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4865407520344556612, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_Url
-      value: https://drive.google.com/uc?export=download&id=1CmiQj9Eu07HZOxDgaGqNqbwzBVzy98-a
+      value: https://github.com/aquagi01/unity-video-host/releases/download/v1/absorption-video.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 8875069066310950309, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_LocalPosition.x

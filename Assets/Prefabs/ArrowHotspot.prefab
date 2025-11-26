@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4811584335302605838}
   - component: {fileID: 1625682190150276821}
   - component: {fileID: 5102635092101995660}
+  - component: {fileID: -8511990243398080777}
   m_Layer: 0
   m_Name: ArrowHotspot
   m_TagString: Untagged
@@ -111,7 +112,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20, y: 20, z: 10}
+  m_Size: {x: 11.5, y: 11.5, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5102635092101995660
 MonoBehaviour:
@@ -125,18 +126,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29b98969404ecb45ad8eb0b1ee2b84e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrowHotspot
-  onClicked:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 5caf1934caf5cb340a4e89aec3de57bc, type: 3}
-        m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
-        m_MethodName: set_name
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: EntranceHallway
-          m_BoolArgument: 0
-        m_CallState: 2
+  m_NextScene: TargetScene
+--- !u!95 &-8511990243398080777
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8810745033891823086}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be3632047a4326044a01c97f1e86bf41, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

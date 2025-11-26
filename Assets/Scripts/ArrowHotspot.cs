@@ -10,13 +10,22 @@ public class ArrowHotspot : MonoBehaviour
     public string m_NextScene = "TargetScene";
 
     private Camera cam;
+    private Animator anim;
+    private bool isHovering = false;
 
     void Start()
     {
         cam = Camera.main;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
+    {
+        Onclick();
+        Hover();
+    }
+
+    private void Onclick()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -47,6 +56,28 @@ public class ArrowHotspot : MonoBehaviour
                     Debug.Log("Button Clicked");
                 }
             }
+        }
+    }
+
+    private void Hover()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            if (hit.collider.gameObject == gameObject)
+            {
+                if (!isHovering)
+                {
+                    isHovering = true;
+                    anim.SetBool("Hover", true);
+                }
+                return;
+            }
+        }
+        if (isHovering)
+        {
+            isHovering = false;
+            anim.SetBool("Hover", false);
         }
     }
 }

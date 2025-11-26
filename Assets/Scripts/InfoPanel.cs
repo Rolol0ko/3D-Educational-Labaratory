@@ -8,11 +8,14 @@ public class InfoPanel : MonoBehaviour
     // Copied from arrow hotspot script
     private Camera cam;
     private GameObject UI;
+    private Animator anim;
+    private bool isHovering = false;
 
     void Start()
     {
         UI = GameObject.Find("UI");
         cam = Camera.main;
+        anim = GetComponent<Animator>();
         HideInfoPanel();
     }
 
@@ -32,6 +35,12 @@ public class InfoPanel : MonoBehaviour
 
     void Update()
     {
+        Hover();
+        Onclick();
+    }
+
+    private void Onclick()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -43,6 +52,28 @@ public class InfoPanel : MonoBehaviour
                     Debug.Log("Info Panel Button Clicked");
                 }
             }
+        }
+    }
+
+    private void Hover()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            if (hit.collider.gameObject == gameObject)
+            {
+                if (!isHovering)
+                {
+                    isHovering = true;
+                    anim.SetBool("Hover", true);
+                }
+                return;
+            }
+        }
+        if (isHovering)
+        {
+            isHovering = false;
+            anim.SetBool("Hover", false);
         }
     }
 }

@@ -15,8 +15,10 @@
 { "key": "Checklist.refrigerationLab", "value": "Visit the Refrigeration Lab" },
 { "key": "Checklist.AbsorbtionLab", "value": "Visit the Absorption Lab" },
 
-{ "key": "Info.EmergencyShowerTitle", "value": "Emergency Shower" },
-{ "key": "Info.EmergencyShower.body", "value": "Emergency Shower description" },
+{ "key": "Info.EmergencyShower.Title", "value": "Emergency Shower" },
+{ "key": "Info.EmergencyShower.Body", "value": "Emergency Shower description" },
+{ "key": "Info.SpillKit.Title", "value": "Spill Kit" },
+{ "key": "Info.SpillKit.Body", "value": "Information about the spill kit can be added here." },
 { "key": "Info.Entrance.Title", "value": "Lab Entrance" },
 { "key": "Info.Entrance.Body", "value": "Welcome to the Chemical Engineering Laboratory—begin your tour here." },
 { "key": "Info.EntranceHallway.Title", "value": "Entrance Hallway" },

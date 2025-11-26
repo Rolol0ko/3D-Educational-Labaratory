@@ -1391,6 +1391,10 @@ PrefabInstance:
       propertyPath: m_Url
       value: https://github.com/aquagi01/unity-video-host/releases/download/v1/distillation-top.mp4
       objectReference: {fileID: 0}
+    - target: {fileID: 6065869695869083411, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
+      propertyPath: fileName
+      value: distillation-top.mp4
+      objectReference: {fileID: 0}
     - target: {fileID: 8875069066310950309, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_LocalPosition.x
       value: 503.6
@@ -1843,6 +1847,10 @@ PrefabInstance:
     - target: {fileID: 4865407520344556612, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_Url
       value: https://github.com/aquagi01/unity-video-host/releases/download/v1/distillation-bottom.mp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065869695869083411, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
+      propertyPath: fileName
+      value: distillation-bottom.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 8875069066310950309, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_LocalPosition.x

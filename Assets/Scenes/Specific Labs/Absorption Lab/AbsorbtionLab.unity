@@ -1346,7 +1346,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4865407520344556612, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_Url
-      value: https://github.com/aquagi01/unity-video-host/releases/download/v1/absorption-video.mp4
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865407520344556612, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065869695869083411, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
+      propertyPath: fileName
+      value: absorption-video.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 8875069066310950309, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1534,6 +1542,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 892026624420584145, guid: c6d8ca9b8f8f05b49b2562fe1b0d47a0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4ef8033340ad5c44aa428213b928ac99, type: 3}
     - target: {fileID: 1751588692252844005, guid: c6d8ca9b8f8f05b49b2562fe1b0d47a0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

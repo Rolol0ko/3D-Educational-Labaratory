@@ -14,8 +14,8 @@
 { "key": "Checklist.refrigerationLab", "value": "Visiter le laboratoire de réfrigération" },
 { "key": "Checklist.AbsorbtionLab", "value": "Visiter le laboratoire de absorption" },
 
-{ "key": "Info.EmergencyShowerTitle", "value": "Douche d’urgence" },
-{ "key": "Info.EmergencyShower.body", "value": "Description de la douche d’urgence" },
+{ "key": "Info.EmergencyShower.Title", "value": "Douche d’urgence" },
+{ "key": "Info.EmergencyShower.Body", "value": "Description de la douche d’urgence" },
 { "key": "Info.SpillKit.Title", "value": "Kit Anti-déversement" },
 { "key": "Info.SpillKit.Body", "value": "Des informations concernant le kit anti-déversement peuvent être ajoutées ici." },
 

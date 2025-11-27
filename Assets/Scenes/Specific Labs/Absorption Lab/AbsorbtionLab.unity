@@ -1342,7 +1342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2943177807024042370, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_Name
-      value: VideoBottom
+      value: VideoAbsorption
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184780319080098537, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
+      propertyPath: fileName
+      value: absorption-video.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 4865407520344556612, guid: 3cbca9fcecd4ea1409e9140a08480038, type: 3}
       propertyPath: m_Url
